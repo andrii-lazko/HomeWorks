@@ -10,6 +10,8 @@ Console.ReadLine();
 
 Console.WriteLine("Three");
 
+Console.WriteLine("Four");
+
 Console.ReadLine();
 
 string name = "Andrii";
