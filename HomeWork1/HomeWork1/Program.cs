@@ -1,21 +1,39 @@
 // See https://aka.ms/new-console-template for more information
 
-string helloworld = "Hello World!";
+int val = 56789;
+int firstVal = val / 10000; //1
 
-double val = 12.0;
+int secondVal = (val  - (firstVal * 10000)) / 1000; //2
 
-char c = 'A';
+int thirdVal = (val - (firstVal * 10000) - (secondVal * 1000)) / 100; ; //3
 
-bool b = val > 15;
-bool d = val == 12;
-bool e = 19 != 13;
+int fourthVal = (val - (firstVal * 10000) - (secondVal * 1000) - (thirdVal * 100)) / 10; //4
 
-Console.WriteLine(b);
-Console.WriteLine(d);
-Console.WriteLine(e);
-Console.WriteLine(89 == 6);
+int fifthVal = val - (firstVal * 10000 + secondVal * 1000 + thirdVal * 100 + fourthVal * 10);
 
-Console.WriteLine(val / 5);
+Console.WriteLine(firstVal); 
+Console.WriteLine(secondVal); 
+Console.WriteLine(thirdVal); 
+Console.WriteLine(fourthVal); 
+Console.WriteLine(fifthVal);
+
+//double val = 12345.0;
+
+//char c = 'A';
+
+//bool b = val > 15;
+//bool d = val == 12;
+//bool e = 19 != 13;
+
+//Console.WriteLine(b);
+//Console.WriteLine(d);
+//Console.WriteLine(e);
+//Console.WriteLine(89 == 6);
+
+//Console.WriteLine(val / 10000);
+
+
+
 
 
 
