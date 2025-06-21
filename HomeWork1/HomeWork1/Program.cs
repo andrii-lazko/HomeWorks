@@ -1,35 +1,22 @@
 // See https://aka.ms/new-console-template for more information
 
-<<<<<<< HEAD
 string helloworld = "Hello World!";
 
 double val = 12.0;
 
 char c = 'A';
 
-Console.WriteLine(c);
+bool b = val > 15;
+bool d = val == 12;
+bool e = 19 != 13;
+
+Console.WriteLine(b);
+Console.WriteLine(d);
+Console.WriteLine(e);
+Console.WriteLine(89 == 6);
 
 Console.WriteLine(val / 5);
 
-=======
-Console.WriteLine("One");
-Console.ReadLine();
-
-Console.WriteLine("Two");
-Console.ReadLine();
-
-Console.WriteLine("Three");
-Console.WriteLine("Four");
-Console.WriteLine("Five");
-Console.WriteLine("Six");
-Console.ReadLine();
-
-string name = "Andrii";
-string lastname = "Lazko";
-
-Console.WriteLine("Hello " + name + " " + lastname);
->>>>>>> 9c5725010964af138592508a04285991aee2ed10
-Console.ReadLine();
 
 
 
