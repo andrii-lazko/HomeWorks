@@ -1,9 +1,14 @@
 // See https://aka.ms/new-console-template for more information
 
-int val = 56789;
+//заняття 4
+
+string strvalue = Console.ReadLine();
+
+int val = 12345;
+
 int firstVal = val / 10000; //1
 
-int secondVal = (val  - (firstVal * 10000)) / 1000; //2
+int secondVal = (val - (firstVal * 10000)) / 1000; //2
 
 int thirdVal = (val - (firstVal * 10000) - (secondVal * 1000)) / 100; ; //3
 
@@ -11,11 +16,41 @@ int fourthVal = (val - (firstVal * 10000) - (secondVal * 1000) - (thirdVal * 100
 
 int fifthVal = val - (firstVal * 10000 + secondVal * 1000 + thirdVal * 100 + fourthVal * 10);
 
-Console.WriteLine(firstVal); 
-Console.WriteLine(secondVal); 
-Console.WriteLine(thirdVal); 
-Console.WriteLine(fourthVal); 
+Console.WriteLine(firstVal);
+Console.WriteLine(secondVal);
+Console.WriteLine(thirdVal);
+Console.WriteLine(fourthVal);
 Console.WriteLine(fifthVal);
+
+
+
+
+//дз 3 заняття
+
+
+
+//int val = 12345;
+
+//int firstVal = val / 10000; //1
+
+//int secondVal = (val  - (firstVal * 10000)) / 1000; //2
+
+//int thirdVal = (val - (firstVal * 10000) - (secondVal * 1000)) / 100; ; //3
+
+//int fourthVal = (val - (firstVal * 10000) - (secondVal * 1000) - (thirdVal * 100)) / 10; //4
+
+//int fifthVal = val - (firstVal * 10000 + secondVal * 1000 + thirdVal * 100 + fourthVal * 10);
+
+//Console.WriteLine(firstVal); 
+//Console.WriteLine(secondVal); 
+//Console.WriteLine(thirdVal);  
+//Console.WriteLine(fourthVal); 
+//Console.WriteLine(fifthVal);
+
+
+
+
+
 
 //double val = 12345.0;
 
