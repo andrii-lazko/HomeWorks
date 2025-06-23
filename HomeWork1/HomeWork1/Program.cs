@@ -2,26 +2,42 @@
 
 //заняття 4
 
-string strvalue = Console.ReadLine();
 
-int val = 12345;
+//const string defaultName = "Petro";
 
-int firstVal = val / 10000; //1
+//var symbol = 'v';
+//var flag = true;
 
-int secondVal = (val - (firstVal * 10000)) / 1000; //2
+const int divisor = 1000;
+var strvalue = Console.ReadLine();
 
-int thirdVal = (val - (firstVal * 10000) - (secondVal * 1000)) / 100; ; //3
+var val = Convert.ToInt32(strvalue);
 
-int fourthVal = (val - (firstVal * 10000) - (secondVal * 1000) - (thirdVal * 100)) / 10; //4
+var condition = val >= 10000 && val <= 99999;
 
-int fifthVal = val - (firstVal * 10000 + secondVal * 1000 + thirdVal * 100 + fourthVal * 10);
+if (condition);
+{
+    var firstVal = val / 10000; //1
 
-Console.WriteLine(firstVal);
-Console.WriteLine(secondVal);
-Console.WriteLine(thirdVal);
-Console.WriteLine(fourthVal);
-Console.WriteLine(fifthVal);
+    var secondVal = (val - (firstVal * 10000)) / divisor; //2
 
+    var thirdVal = (val - (firstVal * 10000) - (secondVal * divisor)) / 100; ; //3
+
+    var fourthVal = (val - (firstVal * 10000) - (secondVal * divisor) - (thirdVal * 100)) / 10; //4
+
+    var fifthVal = val - (firstVal * 10000 + secondVal * divisor + thirdVal * 100 + fourthVal * 10);
+
+    Console.WriteLine(firstVal);
+    Console.WriteLine(secondVal);
+    Console.WriteLine(thirdVal);
+    Console.WriteLine(fourthVal);
+    Console.WriteLine(fifthVal);
+}
+if (val < 10000 || val > 99999)
+{
+    Console.WriteLine($"Error. The number {val} not in the range [10000,99999]");
+}
+Console.ReadLine();
 
 
 
