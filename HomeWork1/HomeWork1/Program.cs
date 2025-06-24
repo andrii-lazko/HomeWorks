@@ -3,41 +3,149 @@
 //заняття 4
 
 
+int Counter = 1;
+
+while (true)
+{
+    Console.Write(Counter + " ");
+    Counter++; //відняти від каунтера одиничку і записати в каунтер та сама фігня -- або ++
+
+if (Counter == 123)
+    {
+        break;
+    }
+
+}
+
+
+
+
+
+
+
+
+//cycles
+
+//Console.Write("Enter the message: ");
+
+//var input = Console.ReadLine();
+//while (input != "exit")
+//{
+//    Console.WriteLine("You entered: " + input);
+
+//    Console.Write("Enter the message: ");
+//    input = Console.ReadLine();
+//}
+
+//Console.Write("The end!");
+//Console.ReadLine();
+
+
+
+
+
+//calculator
+
+//double val1 = double.Parse(Console.ReadLine());
+
+//string strsign = Console.ReadLine();
+
+//double val2 = double.Parse(Console.ReadLine());
+
+
+//while (strsign != "exit")
+//{
+//    double res = 0;
+
+//    if (strsign == "+")
+//    {
+//        res = val1 + val2;
+//    }
+
+//    else if (strsign == "-")
+//    {
+//        res = val1 - val2;
+//    }
+
+//    else if (strsign == "*")
+//    {
+//        res = val1 * val2;
+//    }
+
+//    else if (strsign == "/")
+//    {
+//        res = val1 / val2;
+//    }
+
+//    Console.WriteLine("Result: " + res);
+
+//    val1 = double.Parse(Console.ReadLine());
+
+//    strsign = Console.ReadLine();
+
+//    val2 = double.Parse(Console.ReadLine());
+//}
+
+
+
+
+
+
+
+
+
 //const string defaultName = "Petro";
 
 //var symbol = 'v';
 //var flag = true;
 
-const int divisor = 1000;
-var strvalue = Console.ReadLine();
+//using System.ComponentModel.Design;
 
-var val = Convert.ToInt32(strvalue);
+//var strvalue = Console.ReadLine();
 
-var condition = val >= 10000 && val <= 99999;
+//var val = Convert.ToInt32(strvalue);
 
-if (condition);
-{
-    var firstVal = val / 10000; //1
+//string signDescription = val > 0 ? "Positive" : "Negative";
 
-    var secondVal = (val - (firstVal * 10000)) / divisor; //2
+//Console.WriteLine("Your number is " + signDescription);
 
-    var thirdVal = (val - (firstVal * 10000) - (secondVal * divisor)) / 100; ; //3
 
-    var fourthVal = (val - (firstVal * 10000) - (secondVal * divisor) - (thirdVal * 100)) / 10; //4
 
-    var fifthVal = val - (firstVal * 10000 + secondVal * divisor + thirdVal * 100 + fourthVal * 10);
 
-    Console.WriteLine(firstVal);
-    Console.WriteLine(secondVal);
-    Console.WriteLine(thirdVal);
-    Console.WriteLine(fourthVal);
-    Console.WriteLine(fifthVal);
-}
-if (val < 10000 || val > 99999)
-{
-    Console.WriteLine($"Error. The number {val} not in the range [10000,99999]");
-}
-Console.ReadLine();
+
+
+//const int divisor = 1000;
+
+//var condition = val >= 10000 && val <= 99999;
+
+//if (condition)
+//{
+//    var firstVal = val / 10000; //1
+
+//    var secondVal = (val - (firstVal * 10000)) / divisor; //2
+
+//    var thirdVal = (val - (firstVal * 10000) - (secondVal * divisor)) / 100; ; //3
+
+//    var fourthVal = (val - (firstVal * 10000) - (secondVal * divisor) - (thirdVal * 100)) / 10; //4
+
+//    var fifthVal = val - (firstVal * 10000 + secondVal * divisor + thirdVal * 100 + fourthVal * 10);
+
+//    Console.WriteLine(firstVal);
+//    Console.WriteLine(secondVal);
+//    Console.WriteLine(thirdVal);
+//    Console.WriteLine(fourthVal);
+//    Console.WriteLine(fifthVal);
+//}
+//else   //if (val < 10000 || val > 99999) //if (!condition)
+//{
+//    Console.WriteLine($"Error. The number {val} not in the range [10000,99999]"); //string interpolation
+//}
+//Console.ReadLine();
+
+
+
+
+
 
 
 
