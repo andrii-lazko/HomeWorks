@@ -19,10 +19,10 @@ else if (inputValue % 2 == 0)
 {
     isPrime = false;
 }
-else 
+else
 {
     int divisor = 3;
-    while(divisor <= Math.Sqrt(inputValue))
+    while (divisor <= Math.Sqrt(inputValue))
     {
         if (inputValue % divisor == 0)
         {
@@ -94,7 +94,7 @@ else
 
 
 
-//calculator
+////calculator
 
 //double val1 = double.Parse(Console.ReadLine());
 
