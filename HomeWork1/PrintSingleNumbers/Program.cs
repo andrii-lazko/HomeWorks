@@ -1,42 +1,42 @@
 ﻿
 
-//int inputValue = int.Parse(Console.ReadLine());
+int inputvalue = int.parse(console.readline());
 
-//bool isPrime = true;
+bool isprime = true;
 
-//if (inputValue < 2)
-//{
-//    isPrime = false;
-//}
-//else if (inputValue == 2)
-//{
-//    isPrime = true;
-//}
-//else if (inputValue % 2 == 0)
-//{
-//    isPrime = false;
-//}
-//else
-//{
-//    int divisor = 3;
-//    while (divisor <= Math.Sqrt(inputValue))
-//    {
-//        if (inputValue % divisor == 0)
-//        {
-//            isPrime = false;
-//            break;
-//        }
-//        divisor += 2;
-//    }
+if (inputvalue < 2)
+{
+    isprime = false;
+}
+else if (inputvalue == 2)
+{
+    isprime = true;
+}
+else if (inputvalue % 2 == 0)
+{
+    isprime = false;
+}
+else
+{
+    int divisor = 3;
+    while (divisor <= math.sqrt(inputvalue))
+    {
+        if (inputvalue % divisor == 0)
+        {
+            isprime = false;
+            break;
+        }
+        divisor += 2;
+    }
 
 
-//}
+}
 
-//if (isPrime)
-//{
-//    Console.WriteLine("The Prime number");
-//}
-//else
-//{
-//    Console.WriteLine("Not a Prime number");
-//}
+if (isprime)
+{
+    console.writeline("the prime number");
+}
+else
+{
+    console.writeline("not a prime number");
+}
